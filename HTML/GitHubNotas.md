@@ -25,3 +25,11 @@ git remote add origin URL-GERADA-PELO-PASSO-2-AQUI
 
 Autorize o upload com seu login e senha:<br>
 git push -u origin master
+
+---
+
+git init  # (apenas se o repositório não existir) <br>
+git add nome-do-arquivo<br>
+git commit -m "Mensagem de commit descritiva"<br>
+git remote add origin URL-do-Repositório-Remoto  <br># (apenas se o remoto não estiver configurado)<br>
+git push -u origin branch
