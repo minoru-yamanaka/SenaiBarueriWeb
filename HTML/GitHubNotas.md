@@ -1,4 +1,4 @@
-# GitHub através da linha de comando
+ confi# GitHub através da linha de comando
 
 Um passo a passo rápido para quem pretende subir o seu repositório no GitHub!
 Tenha certeza que o seu git está instalado. No terminal ou prompt de comando cheque através do comando <br>
