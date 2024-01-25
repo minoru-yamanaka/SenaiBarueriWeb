@@ -38,3 +38,12 @@ git push -u origin branch
 
 git config --global user.name "Seu Nome"<br>
 git config --global user.email "seu@email.com"<br>
+
+---
+
+git init 
+git config --global user.name " "    
+git config --global user.email "    "
+git add .
+git commit -m " "
+git push -u origin main
