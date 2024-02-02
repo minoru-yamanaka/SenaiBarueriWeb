@@ -4,6 +4,7 @@ left -> esquerda
 right -> direira 
 
 Sintaxe:
+<<<<<<< HEAD
     Seletor{ 
         Propriedade: valor;
     }
@@ -35,3 +36,13 @@ lorem*5 > 5 parágrafos
 lorem5 > 5 palavras 
 
 
+=======
+Seletor{ 
+    Propriedade: valor;
+}
+
+Modos:
+    Inline 
+    Online 
+    Externo
+>>>>>>> fb13ebdb59bda444b34090e297b9777e36df81f9
