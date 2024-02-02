@@ -1,0 +1,220 @@
+# Blobo de Notas
+Web Design - Front end 
+
+
+11 01 2024.
+Professores Rodrigo Stein e Vagner 
+Turma: QWEB-1-24-BEs
+ 
+Início: 11/01/2024
+Término: 25/04/2024
+
+Carga horária 180 hrs
+Quarta à Sexta 13h30 às 17h30.
+
+
+1º dia de aula
+
+> Apresentação geral
+> Profº de gráfica que instrui sobre inf básica.
+> Regras 
+
+---
+
+12 01 2024.
+
+Sites 
+
+Unsplash
+Pixabay 
+Pexels 
+Freepik 
+Vecteezy 
+
+Atividade baixar 5 img
+criar doc e pdf 
+
+---
+
+17 01 2024
+
+manipulação de img no photoshop 
+
+---
+
+18 01 24
+
+Apresentação do Profº Vagner e da grade.
+
+Notas do Video: 
+	internet = interligação de redes = conexão entre dispositivos
+	tcp ip = protocolo de navegação 
+	web = teia à partir de 91
+
+Termos: 
+	CLIENT-SIDE = lado do cliente 
+	Servidor de Acesso = Empressa q cede acesso 
+	Servidores de tráfego = Rota dos pacotes 
+	Servidor de hospedagem = hospeda, dispositivo de acesso público = hotel 
+	
+Design designare:
+	Padronização = réplicas com características padrão default 
+
+designer (profissional) não é design (profissão) 
+WebDesign = atividade ligada ao desenvolvimento da interface visual
+
+Site = grupo de páginas
+
+Quando acesso um site eu faço um download do conteúdo = baixar a informação do servidor
+
+Fim de Apresentação 
+
+»»————-　★　————-««
+
+  git config --global user.email minoruyamanaka@icloud.com
+  git config --global user.name minoru-yamanaka
+
+  git remote add origin https://github.com/minoru-yamanaka/SenaiBarueriWeb.git
+
+  https://dev.to/alanfabricio/subindo-seu-repositorio-no-github-atraves-da-linha-de-comando-3kcm
+
+»»————-　★　————-««
+
+HTML 5 = Arquivo com estrutura definida
+HTML é a sigla Hyper Text Markup Language = linguagem de marcação 
+Hipertexto ou hiperlink = interligar as inf 
+TAGS = marcações 
+o intérprete é o navegador 
+
+Motores de renderização = interpretadores de tags < cada navegador tem o seu > como o browser lê as inf 
+
+---
+<!DOCTYPE html>
+<!-- tags -->
+<!-- algumas tags tem fechamento e outras não -->
+<html lang="pt-br">
+<head>
+ <meta charset="utf-8">
+ <title>Primeira página</title>
+</head>
+<body>
+ Olá mundo!
+</body>
+</html>
+
+---
+19 01 24
+
+Já Ocorram as apresentações dos professores e da grade currícular.
+
+Atividades  <br>
+
+- [ 01-codigo-basico](/HTML/01-codigo-basico.html) com a estrutura básica do HTML. <br>
+
+- [02-paragrafo](/HTML/02-paragrafo.html)
+
+lorem + Tab =>  gera textox aleatórios.
+lorem*2 + Tab =>  gera textox aleatório com quantidade de paragráfos 
+
+Alt + Z => Quebra o texto automáticamente na IDE 
+
+- [03-lista-ordenada](/HTML/03-lista-ordenada.html)
+
+- [04-lista-nao-ordenda](/HTML/04-lista-nao-ordenda.html)
+
+- [05-exercicio](/HTML/05-exercicio.html)
+
+- [06-imagens](06-imagens.html)
+
+- [07-exercicio](07-exercicio.html)
+
+---
+
+24 01 24
+
+**Correção do exercício** -> [07-exercicio](07-exercicio.html)
+
+**Definição** de tag, tributo e valor
+
+- [08-emmet.html](08-emmet.html)
+
+**Recursos Emmet**
+
+Uso do plugin **emmet** para auto preenchimento = **! + tab**
+
+**ol>li** atalho para criar lista ordenada e item
+
+**ul>li*6** = cria 6 itens para a lista não ordenada
+
+**Alt + Shift** + seleção do mouse = Escreve Simultaniamente
+
+**p>lorem^img** = cria paragrafo e texto <br>
+
+**> = entra em um nível**<br>
+**^ = sai de um nível**<br>
+**+ add tags no mesmo nível ao lado do outro dentro do nível**<br>
+
+**Alt + Shift + (cima ou abaixo)** = Duplicar 
+
+- [09-links](09-links.html)
+
+**a + Tab** = add link
+**a{texto}** = add texto para o link
+
+**Nota: Auto Save = AfterDelay**
+
+- [10-links-internos](10-links-internos.html)
+
+**Exercício 11 - Transição**
+
+-  [11a-exercicio](11a-exercicio.html)
+-  [11b-exercicio](11b-exercicio.html)
+
+**Exercício 12 - Páginas Cores**
+
+- [12-azul-exercicio](12-azul-exercicio.html)
+- [12-laranja-exercicio](12-laranja-exercicio.html)
+- [12-verde-exercicio](12-verde-exercicio.html)
+- [12-vermelho-exercicio](12-vermelho-exercicio.html)
+
+**Links com fotos**
+
+- [13-links-com-fotos](13-links-com-fotos.html)
+
+---
+
+25 01 24
+
+- [14-links](/HTML/14-links.html)
+
+
+**Uso da Target**
+
+Acesso em outra aba = **target="_blank**
+
+- [15-tabelas](/HTML/15-tabelas.html)
+
+Manipulação de tags para tabela
+
+Exercício
+
+- [16-tabela-exercicio](/HTML/16-tabela-exercicio.html)
+
+**Uso da div**
+
+-[17-div](/HTML/17-div.html)
+
+**Exercício 
+
+Defina um tema, e crie 5 páginas. Cada um dos respectivos nomes abaixo 
+
+Cada página deverá abordar a tag de acordo com seu nome.
+
+Todas as páginas deverão permitir a nagevação entre as mesmas.
+
+18-tabela.html
+18-fotos.html
+18-listas.html 
+18-paragrafo.html
+18-div.html 
+
