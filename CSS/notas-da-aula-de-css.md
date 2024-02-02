@@ -28,7 +28,7 @@ Só a tag ' a ' será alterada
     Agrupados:
 
         1h, h2, p{
-            color: red 
+            color: red;
         }
 Estilizar as tags em um única seleção 
  
@@ -46,3 +46,8 @@ Modos:
     Online 
     Externo
 >>>>>>> fb13ebdb59bda444b34090e297b9777e36df81f9
+
+Seletor Universal 
+    *{
+        color: red;
+    }
