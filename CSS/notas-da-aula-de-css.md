@@ -51,3 +51,9 @@ Seletor Universal
     *{
         color: red;
     }
+
+Seletor class
+    .teste{
+        width:200px
+        background-color:grey;
+    }
