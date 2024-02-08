@@ -7,28 +7,35 @@
     <!-- CSS-->
     <style>
         body {
-            background-image: url(/CSS/imagens/vecteezy.jpg);
+            background-image: url(imagens/vecteezy.jpg);
         }
 
         div{
             border-width: 5px;
         }
 
+        /*  
+        div{
+            border-width: 5px;
+        }
+        */
+
         .cantos-arredondados {
             padding: 10px;
+            border-style: solid;
             border-radius: 30px 30px 05px 05px ;
             
         }
 
         .bordas-coloridas {
             padding: 10px;
-            border: solid 3px;
+            border-style: solid;
             border-color: #0000ff #008000 #ff0000 #ffff00;
         }
 
         .bordas-estilos-diferentes {
             padding: 10px;
-            border: solid 2px;
+            border-style: solid;
             border-style: solid dotted solid dotted;
         }
 
@@ -41,16 +48,14 @@
             padding: 10px;
             border-radius: 30px 30px 05px 05px ;
             /* */
-            border: solid 3px;
+            border-style: solid;
             border-color: #0000ff #008000 #ff0000 #ffff00;            
         }
 
         .div6 {
             padding: 10px;
-            border-width: 3px;
             border-radius: 30px 30px 05px 05px ;
             /*  */
-            padding: 10px;
             border-color: #0000ff #008000 #ff0000 #ffff00;
             /*  */
             border-style: solid dotted solid dotted;
@@ -60,40 +65,42 @@
     </style>
 
     <title>Exercicio</title>
+
 </head>
 
 <body>
+    <!-- patternpad.com-->
 
-    <div class="cantos-arredondados">
+    <div class="cantos-arredondados border">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolore explicabo perferendis at ullam,
             aliquid labore non beatae similique ad?</p>
     </div>
     <br>
-    <div class="bordas-coloridas">
+    <div class="bordas-coloridas border">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, suscipit, quae veritatis voluptas velit,
             ad explicabo incidunt commodi aut ipsa temporibus iure sint accusamus minima qui soluta. Recusandae, quae
             nihil.</p>
     </div>
     <br>
-    <div class="bordas-estilos-diferentes">
+    <div class="bordas-estilos-diferentes border">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, iste debitis! Voluptate expedita
             inventore recusandae obcaecati facilis ab culpa ad non veritatis ipsum, aperiam quasi. Iure debitis eos
             autem odio!</p>
     </div>
     <br>
-    <div class="cor-de-fundo">
+    <div class="cor-de-fundo border">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem similique in tenetur ipsa, fuga
             temporibus vero praesentium voluptatem assumenda molestiae facere mollitia corrupti labore reiciendis.
             Maxime dolore in amet ut.</p>
     </div>
     <br>
-    <div class="div5">
+    <div class="div5 border arredondados bordas-coloridas">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem similique in tenetur ipsa, fuga
             temporibus vero praesentium voluptatem assumenda molestiae facere mollitia corrupti labore reiciendis.
             Maxime dolore in amet ut.</p>
     </div>
     <br>
-    <div class="div6">
+    <div class="div6 border arredondados bordas-coloridas bordas-estilos-diferentes cor-de-fundo">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem similique in tenetur ipsa, fuga
             temporibus vero praesentium voluptatem assumenda molestiae facere mollitia corrupti labore reiciendis.
             Maxime dolore in amet ut.</p>
