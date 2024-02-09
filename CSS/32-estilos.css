@@ -1,0 +1,37 @@
+body {
+    background-image: url(/CSS/imagens/patternpad.jpeg);
+}
+
+/* sem serifa para título      */
+
+h1{
+    font-family: 'Workbench', sans-serif;
+}
+
+/* com serifa para paragráfos e listas      */
+
+p{
+    font-family: 'Cutive Mono', monospace;
+}
+
+ol{
+    font-family: 'Cutive Mono', monospace;
+}
+
+il{
+    font-family: 'Cutive Mono', monospace;
+}
+
+/* imagens */
+
+/*  imagem linha inteira -> display: block;*/
+
+
+img {
+    border-radius: 100px;
+    border: solid black;
+}
+
+table {
+    border-style: double;
+}
