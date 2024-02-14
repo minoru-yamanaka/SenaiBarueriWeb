@@ -8,21 +8,28 @@ body {
 /* sem serifa para título      */
 
 h1{
-    font-family: 'Workbench', sans-serif;
+    font-family: "Sixtyfour", sans-serif;
 }
 
 /* com serifa para paragráfos e listas      */
 
-p{
-    font-family: 'Cutive Mono', monospace;
+p , li{
+    font-family: "Merriweather", serif;
 }
 
 ol{
-    font-family: 'Cutive Mono', monospace;
+    font-family: "Merriweather", serif;
 }
 
-il{
-    font-family: 'Cutive Mono', monospace;
+.linhaPar{
+    background-color: aquamarine
+}
+ .linhaImpar{
+    background-color: yellowgreen;
+ }
+.linhaTitle{
+    border: 5px solid  #ffc400;
+    background-color:  #ffc400;
 }
 
 
@@ -38,7 +45,8 @@ img {
 }
 
 table {
-    border-style: double;
+    border: 5px double  #ffc400;
+    font-family: "Roboto Mono", monospace;
 }
 
 /*  */
@@ -49,9 +57,6 @@ header {
     padding: 10px 0;
     text-align: center;
     margin: 0px 0px 24px ;
-
-
-
 }
 
 
@@ -59,7 +64,7 @@ nav a {
     color: black;
     text-decoration: none;
     margin: 0 10px;
-    font-family: 'Workbench', sans-serif;
+    font-family: "Sixtyfour", sans-serif;
 }
 
 nav a:hover {
@@ -70,4 +75,6 @@ nav a:hover {
 .table-container {
     display: flex;
     justify-content: center;
+    
 }
+
