@@ -1,5 +1,8 @@
 body {
     background-image: url(/CSS/imagens/patternpad.jpeg);
+    margin: 0px;
+    text-align: center;
+    align-items: center;
 }
 
 /* sem serifa para título      */
@@ -22,6 +25,8 @@ il{
     font-family: 'Cutive Mono', monospace;
 }
 
+
+
 /* imagens */
 
 /*  imagem linha inteira -> display: block;*/
@@ -34,4 +39,35 @@ img {
 
 table {
     border-style: double;
+}
+
+/*  */
+
+header {
+    background-color: #ffc400;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0px 0px 24px ;
+
+
+
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Workbench', sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
 }
