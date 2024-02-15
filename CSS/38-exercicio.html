@@ -6,113 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <style>
-        /* Estados para o links  */
+        body {
+            margin: 100px;
+            text-align: center;          
+        }
 
-        article a:link {
+        /* Estilos para todos os links não visitados */
+        .btnGithub:link {
             background-color: pink;
-            color: black;
             text-decoration: none;
+            color: white;
             border: 3px solid black;
             border-radius: 10px;
             padding: 10px;
-            margin: 10px;
         }
 
-        article a:visited {
-            background-color: greenyellow;
-            color: black;
-            border: 3px solid black;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
-        }
-
-        article a:hover {
-            background-color: red;
-            color: black;
-            text-decoration: underline;
-            border: 3px solid black;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
-        }
-
-        article :active {
-            background-color: greenyellow;
-            color: black;
-            border: 3px solid black;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
-        }
-        
-        /* div      */
-        
-        div a:link {
+        /* Estilos para links visitados */
+        .btnGithub:visited {
             background-color: black;
+            color: white;
+        }
+
+        /* Estilos para links quando o mouse está sobre eles */
+        .btnGithub:hover {
+            background-color: white;
             color: black;
+            border: 4px solid black;
+        }
+
+        /* Estilos para links quando clicados */
+        .btnGithub:active {
+            background-color: blueviolet;
+        }
+
+        /*  */
+
+        .btnLinkdIn:link {
+            background-color: blueviolet;
+            color: white;
             text-decoration: none;
             border: 3px solid black;
             border-radius: 10px;
             padding: 10px;
-            margin: 10px;
         }
 
-        div a:visited {
-            background-color: blue;
+        /* Estilos para links visitados */
+        .btnLinkdIn:visited {
+            background-color: cornflowerblue;
             color: white;
-            border: 3px solid black;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
         }
 
-        div a:hover {
-            background-color: red;
-            color: white;
-            text-decoration: none;
-            border: 3px solid black;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
+        /* Estilos para links quando o mouse está sobre eles */
+        .btnLinkdIn:hover {
+            background-color: white;
+            color: cornflowerblue;
+            border: 4px solid cornflowerblue;
         }
 
-        div :active {
-            background-color: greenyellow;
-            color: black;
-            border: 3px solid black;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
+        /* Estilos para links quando clicados */
+        .btnLinkdIn:active {
+            background-color: cornflowerblue;
         }
-
-
     </style>
-    <title>Exercicio</title>
+    <title>Exercício</title>
 </head>
 
 <body>
     <main>
 
-        <article>
-            
-            <a href="https://github.com/minoru-yamanaka">Github</a>
-
-        </article>
+        <a class="btnGithub" href="https://github.com/minoru-yamanaka">Github</a>
 
         <br>
         <br>
-    
-        <div>
+        <Br>
 
-            <a href="https://br.linkedin.com/in/minoru-yamanaka-2272a6243">LinkedIn</a>
+        <a class="btnLinkdIn" href="https://br.linkedin.com/in/minoru-yamanaka-2272a6243">LinkedIn</a>
 
-        </div>
-       
-    
-        
     </main>
-   
 </body>
 
 </html>
