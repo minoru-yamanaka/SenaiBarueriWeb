@@ -1,0 +1,82 @@
+body {
+    background-image: url(/CSS/imagens/patternpad.jpeg);
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+/* sem serifa para título      */
+
+h1 {
+    font-family: "Sixtyfour", sans-serif;
+}
+
+/* com serifa para paragráfos e listas      */
+
+p,
+li {
+    font-family: "Merriweather", serif;
+}
+
+ol {
+    font-family: "Merriweather", serif;
+}
+
+.linhaPar {
+    background-color: aquamarine
+}
+
+.linhaImpar {
+    background-color: yellowgreen;
+}
+
+.linhaTitle {
+    border: 5px solid #ffc400;
+    background-color: #ffc400;
+}
+
+
+
+/* imagens */
+
+/*  imagem linha inteira -> display: block;*/
+
+
+img {
+    border-radius: 100px;
+    border: solid black;
+}
+
+table {
+    border: 5px double #ffc400;
+    font-family: "Roboto Mono", monospace;
+}
+
+/*  */
+
+header {
+    background-color: #ffc400;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0px 0px 24px;
+}
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: "Sixtyfour", sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+
+}

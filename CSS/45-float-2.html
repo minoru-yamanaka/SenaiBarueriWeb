@@ -1,36 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        img {
-            float:left;
+        .img1 {
+            float: left;
             /* Para desgrudar do texto */
-            margin: 3px 6px ;
+            margin-right: 6px;
         }
-       
 
+        .img2 {
+            float: right;
+            /* Para desgrudar do texto */
+            margin: 3px 3px;
+        }
 
+        p{ 
+            /* ignora o float deixando ele como no block  */
+            clear: both;
+            text-align: justify;
+        }
 
     </style>
     <title>Float 2</title>
 </head>
+
 <body>
 
-    <img src="imagens/senai_amarelo.jpg" alt="logo do Senai em amarelo">
+    <img class="img1" src="imagens/senai_amarelo.jpg" alt="logo do Senai em amarelo">
     <!-- o p é block -->
     <!-- texto solto é inline -->
-    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto fugit vitae aspernatur error esse sit enim non reprehenderit soluta recusandae, accusantium quam impedit architecto? Officia quia architecto rerum sunt.
-    Quidem nostrum corrupti odit voluptatibus incidunt impedit modi, voluptas iusto, fuga ea perferendis commodi magni animi quia blanditiis? Necessitatibus, incidunt ipsum? Voluptates quaerat non corporis pariatur voluptate, laudantium maxime veritatis.
-    Laborum sed deserunt id a nihil ad labore iste quis sunt dolorum, provident modi suscipit laudantium assumenda molestiae dolorem vitae similique aspernatur voluptas omnis iure! Minima non ad quidem reprehenderit?
-    Neque facilis, veritatis magni optio excepturi aspernatur et velit quo! Rem necessitatibus molestias nihil, alias, adipisci impedit cupiditate sit nesciunt esse expedita minima ea quos, facilis porro vel amet officiis.
-    Odit eaque reprehenderit nulla quas harum suscipit autem voluptatum excepturi, tenetur accusamus tempora magni natus, nobis aliquam ducimus optio. Tempora ut nemo eum, officia saepe officiis sapiente quis impedit praesentium.
-    Nulla reprehenderit corrupti temporibus deserunt architecto aspernatur magnam eaque blanditiis impedit consequatur, quas tempora facilis. Quibusdam eos deserunt, at odio quae consequuntur pariatur animi error accusamus blanditiis, quam nam doloremque?
-    Aliquid architecto provident repudiandae vitae tenetur cupiditate modi aperiam magnam minima necessitatibus molestiae, culpa, at praesentium ad. Voluptate, quam id quis itaque architecto totam voluptatum, nobis corrupti ea inventore repudiandae.
-    Perspiciatis et libero, sapiente est quos autem minima odit laudantium, quis dolorem rem quae non optio eaque numquam natus tenetur, reiciendis aut! Ab quo assumenda quam officiis pariatur sed omnis.
-    Esse quae, ea iste vero aliquid corporis nam eaque cum perspiciatis, consequuntur cupiditate dolore. Minus dicta aliquam similique qui, veniam magnam voluptates facere accusantium iusto aspernatur incidunt soluta, explicabo ipsa!
-    Explicabo, nemo incidunt eligendi natus distinctio expedita tempore labore. Numquam, pariatur voluptate, dolores quisquam accusamus enim omnis nesciunt sed quia adipisci eos. Velit commodi a cumque iusto itaque rem amet?</P>
-    
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus iusto fugit vitae aspernatur error esse
+        sit enim non reprehenderit soluta recusandae, accusantium quam impedit architecto? Officia quia architecto rerum
+        sunt.
+        Quidem nostrum corrupti odit voluptatibus incidunt impedit modi, voluptas iusto, fuga ea perferendis commodi
+        magni animi quia blanditiis? Necessitatibus, incidunt ipsum? Voluptates quaerat non corporis pariatur voluptate,
+        laudantium maxime veritatis.
+        Laborum sed deserunt id a nihil ad labore iste quis sunt dolorum, provident modi suscipit laudantium assumenda
+        molestiae dolorem vitae similique aspernatur voluptas omnis iure! Minima non ad quidem reprehenderit?
+        Neque facilis, veritatis magni optio excepturi aspernatur et velit quo! Rem necessitatibus molestias nihil,
+        alias, adipisci impedit cupiditate sit nesciunt esse expedita minima ea quos, facilis porro vel amet officiis.
+        Odit eaque reprehenderit nulla quas harum suscipit autem voluptatum excepturi, tenetur accusamus tempora magni
+        natus, nobis aliquam ducimus optio. Tempora ut nemo eum, officia saepe officiis sapiente quis impedit
+        praesentium.
+        Nulla reprehenderit corrupti temporibus deserunt architecto aspernatur magnam eaque blanditiis impedit
+        consequatur, quas tempora facilis. Quibusdam eos deserunt, at odio quae consequuntur pariatur animi error
+        accusamus blanditiis, quam nam doloremque?
+        Aliquid architecto provident repudiandae vitae tenetur cupiditate modi aperiam magnam minima necessitatibus
+        molestiae, culpa, at praesentium ad. Voluptate, quam id quis itaque architecto totam voluptatum, nobis corrupti
+        ea inventore repudiandae.
+        Perspiciatis et libero, sapiente est quos autem minima odit laudantium, quis dolorem rem quae non optio eaque
+        numquam natus tenetur, reiciendis aut! Ab quo assumenda quam officiis pariatur sed omnis.
+        Esse quae, ea iste vero aliquid corporis nam eaque cum perspiciatis, consequuntur cupiditate dolore. Minus dicta
+        aliquam similique qui, veniam magnam voluptates facere accusantium iusto aspernatur incidunt soluta, explicabo
+        ipsa!
+        Explicabo, nemo incidunt eligendi natus distinctio expedita tempore labore. Numquam, pariatur voluptate, dolores
+        quisquam accusamus enim omnis nesciunt sed quia adipisci eos. Velit commodi a cumque iusto itaque rem amet?
+ 
+        <img class="img2"   src="imagens/senai_amarelo.jpg" alt="logo do Senai em amarelo">
+
+        Aliquid architecto provident repudiandae vitae tenetur cupiditate modi aperiam magnam minima necessitatibus
+        molestiae, culpa, at praesentium ad. Voluptate, quam id quis itaque architecto totam voluptatum, nobis corrupti
+        ea inventore repudiandae.
+        Perspiciatis et libero, sapiente est quos autem minima odit laudantium, quis dolorem rem quae non optio eaque
+        numquam natus tenetur, reiciendis aut! Ab quo assumenda quam officiis pariatur sed omnis.
+        Esse quae, ea iste vero aliquid corporis nam eaque cum perspiciatis, consequuntur cupiditate dolore. Minus dicta
+        aliquam similique qui, veniam magnam voluptates facere accusantium iusto aspernatur incidunt soluta, explicabo
+        ipsa!
+        Explicabo, nemo incidunt eligendi natus distinctio expedita tempore labore. Numquam, pariatur voluptate, dolores
+        quisquam accusamus enim omnis nesciunt sed quia adipisci eos. Velit commodi a cumque iusto itaque rem amet?</p>
+
 </body>
+
 </html>
