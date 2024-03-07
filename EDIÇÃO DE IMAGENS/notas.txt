@@ -1,0 +1,26 @@
+GIF 
+    - Baixa quantidade de cores 
+    - transparência  
+    - Armazenar frames -> animações 
+
+giphy.com 
+
+jpeg ou jpeg ( + popular )
+    - Até 16 milhões de cores 
+    - Alta taxa de compressão 
+
+exportar -> salvar para web 
+
+png 
+    - armazena milhões de cores 
+    - transparência 
+
+webp 
+    - formato proprietário ( google 2010 )
+    - 30% maior que o jpeg | alta taxa de compressão 
+    - transparência
+    - armazenar frames (animações)
+
+svg
+    - formato vetorial 
+    - ao ser redimensionado não perde a qualidade 
