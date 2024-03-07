@@ -1,0 +1,31 @@
+**UI Design**, ou **Design de Interface do Usuário**, é uma área do design que se concentra na criação e aprimoramento das interfaces com as quais os usuários interagem em produtos digitais, como aplicativos, sites, sistemas embarcados, dispositivos inteligentes e softwares. Vamos explorar mais sobre o assunto:
+
+1. **Definição de UI Design**:
+   - O UI Design é responsável por projetar
+
+--
+
+Uma **interface** é o nome dado para o modo como ocorre a "comunicação" entre duas partes distintas e que não podem se conectar diretamente. Por exemplo, em um **software** ou **sistema operacional**, a interface permite que uma pessoa o controle usando um computador. Essa **interface** é a tela de comandos apresentada pelo programa, também conhecida como a **interface gráfica do software**. Nessa tela, você encontrará imagens, ícones, campos de texto e outras ferramentas que auxiliam o usuário a desempenhar suas tarefas no software.
+
+    interface é o meio de interação entre o usuário e a máquina.
+
+--
+
+O UI Designer (Designer de Interfaces) é o profissional responsável por projetar o layout e os elementos interativos das interfaces digitais. Vamos explorar mais sobre o assunto:
+
+Design de Interface:
+O UI Designer cria a estrutura visual de produtos digitais, como websites, aplicativos e sistemas.
+Ele se concentra em diversos aspectos:
+Design Visual: Responsável por criar o layout, cores, tipografia e elementos gráficos da interface.
+Navegação Intuitiva: Garante que a navegação pelo produto seja clara e intuitiva.
+Usabilidade: Considera a experiência do usuário ao interagir com a interface12.
+
+    Estrutura visualmente os elementos da interface 
+
+--
+
+ui x ux
+
+ui -> interface estética 
+
+ux -> experiência do usuário 
