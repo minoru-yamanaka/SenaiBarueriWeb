@@ -26,6 +26,6 @@ Usabilidade: Considera a experiência do usuário ao interagir com a interface12
 
 ui x ux
 
-ui -> interface estética 
+ui -> interface estética | visual 
 
-ux -> experiência do usuário 
+ux -> experiência do usuário | interação 
