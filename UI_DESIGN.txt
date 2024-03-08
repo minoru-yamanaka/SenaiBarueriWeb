@@ -66,16 +66,32 @@ Conceitos de UI - UX
 
         Branco: paz, respeito, pureza 
 
-        Temperatura das cores < Círculo cromático > 
-
+    Temperatura das cores < Círculo cromático > 
         cores quentes -> energia 
         cores frias -> tranquilidade | relax 
 
-        Conheça 
-            - ramo profissional | direcionamento 
-            - psicologia das cores 
+    Conheça 
+        - ramo profissional | direcionamento 
+        - psicologia das cores 
 
-    
+    Com base na primeira cor é possível desenvolver sua paleta com base na matemática < Paleta de 5 cores e para Web 3 cores  >
+
+    estratégia de arquitetura para desenvolver ambiente aplicado no digital -> método 60-30-10
+
+        A regra dos 60-30-10 é uma dica importante para designers de UI que desejam criar equilíbrio e harmonia em suas interfaces. Ela sugere que 60% da cor da interface do usuário deva ser uma cor dominante, 30% deva ser uma cor secundária e 10% deve ser uma cor terciária.
+
+        60 dominate 
+        30 harmonia - fotos
+        10 destaque -> cor da marca -> elementos de destaque 
+
+Coolors < criação de paletas >: https://coolors.co/
+
+    paleta de cores 
+
+    60
+    30
+    10
+   
 
     1 – Adobe Color
     2 – Canva
@@ -100,8 +116,10 @@ Conceitos de UI - UX
     Livro "Da cor a cor inexistente"
     https://www.amazon.com.br/cor-inexistente-Israel-Pedrosa/dp/8574582670
 
+    mailchimp: 
+    https://mailchimp.com/pt-br/landers/email-marketing-platform/?ds_c=DEPT_AOC_Bing_Search_ROW-BR_EN_Brand_Acquire_Omega_50off_T3&ds_kids=p78424250834&ds_a_lid=kwd-77722157663729:loc-20&ds_cid=71700000115523628&ds_agid=58700008591061740&gclid=b3d9ff885c10132125979a630a55b509&gclsrc=3p.ds&msclkid=b3d9ff885c10132125979a630a55b509
 
-    
+
 
 
 
