@@ -1,7 +1,7 @@
 **UI Design**, ou **Design de Interface do Usuário**, é uma área do design que se concentra na criação e aprimoramento das interfaces com as quais os usuários interagem em produtos digitais, como aplicativos, sites, sistemas embarcados, dispositivos inteligentes e softwares. Vamos explorar mais sobre o assunto:
 
-1. **Definição de UI Design**:
-   - O UI Design é responsável por projetar
+    1. **Definição de UI Design**:
+    - O UI Design é responsável por projetar
 
 --
 
@@ -13,12 +13,12 @@ Uma **interface** é o nome dado para o modo como ocorre a "comunicação" entre
 
 O UI Designer (Designer de Interfaces) é o profissional responsável por projetar o layout e os elementos interativos das interfaces digitais. Vamos explorar mais sobre o assunto:
 
-Design de Interface:
-O UI Designer cria a estrutura visual de produtos digitais, como websites, aplicativos e sistemas.
-Ele se concentra em diversos aspectos:
-Design Visual: Responsável por criar o layout, cores, tipografia e elementos gráficos da interface.
-Navegação Intuitiva: Garante que a navegação pelo produto seja clara e intuitiva.
-Usabilidade: Considera a experiência do usuário ao interagir com a interface12.
+    Design de Interface:
+    O UI Designer cria a estrutura visual de produtos digitais, como websites, aplicativos e sistemas.
+    Ele se concentra em diversos aspectos:
+    Design Visual: Responsável por criar o layout, cores, tipografia e elementos gráficos da interface.
+    Navegação Intuitiva: Garante que a navegação pelo produto seja clara e intuitiva.
+    Usabilidade: Considera a experiência do usuário ao interagir com a interface12.
 
     Estrutura visualmente os elementos da interface 
 
@@ -26,12 +26,85 @@ Usabilidade: Considera a experiência do usuário ao interagir com a interface12
 
 ui x ux
 
-ui -> interface estética | visual 
+    ui -> interface estética | visual 
 
-ux -> experiência do usuário | interação 
+    ux -> experiência do usuário | interação 
 
 --
 
  08 03 24
 
- 
+Conceitos de UI - UX
+
+ Simplicidade
+
+    Minimalismo 
+    Racionalidade -> PQ usou isso ou aquilo ?
+    Objetivo < Racional > -> nunca ser subjetivo < achismo >
+
+    Nota: Outdoor -> texto rápido 
+
+    Cores -> Psicologia das cores -> sensação, emoção ou desejo 
+
+        Sensações 
+
+        Vermelho: raiva, paixão, fúira, desejo, excitação, energia poder, calor, amor, perigo, violência, fome.
+
+        Rosa: amor, inôcencia, saúde, felicidade, romantismo, charme, delicadeza.
+
+        amarelo: alegria, esperança, sabedoria, verão.
+
+        Laranja: humor, extravagância, expansão 
+
+        Verde: sorte, fertilidade, saúde, perseverança, juventude, dollar.
+
+        Azul: paz, confiança, tecnologia
+
+        roxo: erotismo, misterioso, poder, espiritualidade, nobreza e poder 
+
+        preto: sexualidade, elegância, mistério, não < positivo | negativo >
+
+        Branco: paz, respeito, pureza 
+
+        Temperatura das cores < Círculo cromático > 
+
+        cores quentes -> energia 
+        cores frias -> tranquilidade | relax 
+
+        Conheça 
+            - ramo profissional | direcionamento 
+            - psicologia das cores 
+
+    
+
+    1 – Adobe Color
+    2 – Canva
+    3 – Coolors
+    4 – Color Hunt
+    5 – Colormind
+    6 – Material.io
+    7 – ColorSpace
+    8 – Color Lisa
+    9 – BrandColors
+    10 – Muzli Colors
+
+    Sites para de paleta de cores: 
+    https://www.designerd.com.br/sites-que-vao-te-ajudar-a-criar-paleta-de-cores-perfeita/
+
+    guideline ->Manuais de Identidade Visual < Regras de manual de como desenvolver o Design >
+    https://designcomcafe.com.br/manuais-de-identidade-visual-para-se-inspirar/
+
+    A psicologia das cores em web design
+    https://blog.wsiconsultoria.com/psicologia-das-cores-seu-website
+
+    Livro "Da cor a cor inexistente"
+    https://www.amazon.com.br/cor-inexistente-Israel-Pedrosa/dp/8574582670
+
+
+    
+
+
+
+
+
+
