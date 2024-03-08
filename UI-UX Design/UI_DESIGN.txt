@@ -84,9 +84,12 @@ Conceitos de UI - UX
         30 harmonia - fotos
         10 destaque -> cor da marca -> elementos de destaque 
 
-Coolors < criação de paletas >: https://coolors.co/
+Coolors < criação de paletas > -> https://coolors.co/
+mycolor -> https://mycolor.space/
+AdobeColor -> https://color.adobe.com/pt/
+behance -> https://www.behance.net/
 
-    paleta de cores 
+  paleta de cores 
 
     60
     30
