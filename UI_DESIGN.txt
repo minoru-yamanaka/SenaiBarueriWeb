@@ -29,3 +29,9 @@ ui x ux
 ui -> interface estética | visual 
 
 ux -> experiência do usuário | interação 
+
+--
+
+ 08 03 24
+
+ 
