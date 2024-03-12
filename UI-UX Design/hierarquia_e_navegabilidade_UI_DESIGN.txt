@@ -1,0 +1,44 @@
+12 03 24
+
+Conceitos de Hierarquia 
+
+Organizar e apresentar informações 
+
+Disposição de elementos por ordem de relevância 
+
+Técnicas de design para chamada não só dos elementos mas, harmonia 
+
+A atenção tem um Lógica para leitura que devemos saber conduzir e direcionar para o que é imporntante.
+
+Título 
+texto 
+ação 
+
+Desta forma direcionamos o usuário para ação 
+
+O Título tem de pescar a curiosidade 
+
+Título
+    sub-Título
+        - Bullets(bolinhas da <ul>)
+
+Cada informação < bloco > tem diferentes graus de importância
+
+sempre trabalhar com espaçamento entre elementos
+
+Padronizar a harmonia 
+
+-- 
+
+Navegabilidade 
+
+FACILIDADE de navegação 
+
+menu é fixo
+breadcrumbs -> migalhas -> mapa percorrido do site 
+urls -> endereço organizados | seções organizadas  < por vezes podem ser o breadcrumbs>
+
+Redundância de caminhos para direcionar o caminho ou acesso 
+
+
+

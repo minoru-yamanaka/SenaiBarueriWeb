@@ -1,0 +1,16 @@
+12 03 24
+
+Conceitos de Padrões Visuais 
+
+Padrões visuais na interação é um manual de uso já disposto
+por outras referências de usos do mesmo produto criando consistência
+
+Reduz a carga cognitiva 
+
+Protótipo é um tester do produto uma demo antes da concepção do produto 
+
+Baixa fidelidade
+    Simples = base conceitual, esboço = receita do bolo 
+Média fidelidade 
+
+Alta fidelidade 

@@ -1,0 +1,56 @@
+
+
+12 03 24
+
+Tipografia - Fontes 
+
+- Definir 3 tipos de fontes -> no maximo 
+- não variar muito o tamanho de fontes -> h1, h2, h3 ...
+
+- title 
+- color 
+
+Serifadas -> Não usar para o digital 
+    Usadas em blocos de texto 
+    seriedade e estabilidade 
+    tradicional e formal
+
+Não serifadas: 
+    desconytaído 
+
+Manuscruto
+    Caligrafia 
+    Sofisticação 
+
+Decorativas 
+    ornamentos únicos e distintos 
+    lúdicas 
+    temáticas 
+
+
+
+tamanho das fontes 
+
+16 px desktop 
+12 px mobile 
+
+Não devemos trabalhar com valores px 
+
+Escala modular -> proporções agradáveis 
+
+Typescale - Fontes 
+https://typescale.com/
+
+minor third -> regra dos terços <type font >
+
+https://nekocalc.com/px-to-rem-converter
+
+https://fonts.google.com/
+
+Alinhamentos 
+
+
+
+
+
+

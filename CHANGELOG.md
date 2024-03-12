@@ -6,12 +6,15 @@ O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.
 ## 0.1.4 - 2024-03-12
 
 ### Adicionado
-- Aulas < UI-UX Design > 
+- Aula de Padrões visuais -> Padroes_visuais_UI_DESIGN.txt
+- Aula de Navegabilidade -> hierarquia_e_navegabilidade_UI_DESIGN.txt
+- Aula de hierarquia -> hierarquia_UI_DESIGN copy.txt
+- Aula de tipografia -> tipografia_UI_DESIGN
 
 ## 0.1.4 - 2024-03-08
 
 ### Adicionado
-- Aulas de < UI-UX Design > 
+- Aula de Harmonização de cores -> cores_UI-UX Design 
 
 ## 0.1.4 - 2024-03-07
 

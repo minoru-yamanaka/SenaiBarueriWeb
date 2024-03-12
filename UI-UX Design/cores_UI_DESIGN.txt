@@ -123,6 +123,59 @@ behance -> https://www.behance.net/
     https://mailchimp.com/pt-br/landers/email-marketing-platform/?ds_c=DEPT_AOC_Bing_Search_ROW-BR_EN_Brand_Acquire_Omega_50off_T3&ds_kids=p78424250834&ds_a_lid=kwd-77722157663729:loc-20&ds_cid=71700000115523628&ds_agid=58700008591061740&gclid=b3d9ff885c10132125979a630a55b509&gclsrc=3p.ds&msclkid=b3d9ff885c10132125979a630a55b509
 
 
+--
+
+12 03 24
+
+Tipografia - Fontes 
+
+- Definir 3 tipos de fontes -> no maximo 
+- não variar muito o tamanho de fontes -> h1, h2, h3 ...
+
+- title 
+- color 
+
+Serifadas -> Não usar para o digital 
+    Usadas em blocos de texto 
+    seriedade e estabilidade 
+    tradicional e formal
+
+Não serifadas: 
+    desconytaído 
+
+Manuscruto
+    Caligrafia 
+    Sofisticação 
+
+Decorativas 
+    ornamentos únicos e distintos 
+    lúdicas 
+    temáticas 
+
+https://fonts.google.com/
+
+tamanho das fontes 
+
+16 px desktop 
+12 px mobile 
+
+Não devemos trabalhar com valores px 
+
+Escala modular -> proporções agradáveis 
+
+Typescale - Fontes 
+https://typescale.com/
+
+minor third -> regra dos terços <type font >
+
+https://nekocalc.com/px-to-rem-converter
+
+Alinhamentos à esquerda é mais confortável e acessíveis 
+
+
+Alinhamento centralizado só para chamadas < não para leitura, só para destaque>
+
+
 
 
 
