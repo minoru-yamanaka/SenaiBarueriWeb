@@ -3,6 +3,11 @@ Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
 
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) , e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## 0.1.4 - 2024-03-12
+
+### Adicionado
+- Aulas < UI-UX Design > 
+
 ## 0.1.4 - 2024-03-08
 
 ### Adicionado
