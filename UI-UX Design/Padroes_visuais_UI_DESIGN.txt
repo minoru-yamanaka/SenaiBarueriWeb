@@ -14,3 +14,9 @@ Baixa fidelidade
 Média fidelidade 
 
 Alta fidelidade 
+    Wireframe é desenvolvido em um software para realizar a arquitetura do projeto 
+
+Responsividade 
+    Habilidade de se adaptar a diversidade de telas e dispositivos 
+
+    Figma 
