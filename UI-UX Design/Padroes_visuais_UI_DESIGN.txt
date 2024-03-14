@@ -20,3 +20,9 @@ Responsividade
     Habilidade de se adaptar a diversidade de telas e dispositivos 
 
     Figma 
+
+Regra dos 3
+    https://www.4devs.com.br/calculadora_regra_tres_simples
+
+Red Square 
+ multiplos de 8
