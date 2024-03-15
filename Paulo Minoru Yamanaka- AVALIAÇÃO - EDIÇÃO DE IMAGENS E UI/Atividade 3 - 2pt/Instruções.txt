@@ -1,0 +1,16 @@
+::FATOS
+
+ O arquivo Modelo.jpg contido nesta pasta está em alta resolução
+ O arquivo Modelo.jpg precisa precisa ser redimensionado.
+
+
+::INSTRUÇÕES
+
+	1 - No Photoshop, exporte este mesmo arquivo para uma resolução adequada para WEB, e redimensione-o com uma largura de 600px, sem alterar o tipo de arquivo (jpg)
+
+	2 - O arquivo exportado deverá ter o nome Atividade3
+
+
+::QUESITOS OBRIGATÓRIOS
+
+Executar as duas instruções acima.

@@ -1,0 +1,14 @@
+::INSTRUÇÕES
+
+	-1 - No Photoshop, utilizando o recurso de camada de ajuste, altere a cor do carro para vermelho.
+
+	-2 - Salve o arquivo no formato PSD nesta mesma pasta e com o nome Atividade1.
+
+
+::QUESITOS OBRIGATÓRIOS
+
+Executar as duas instruções acima.
+
+
+
+

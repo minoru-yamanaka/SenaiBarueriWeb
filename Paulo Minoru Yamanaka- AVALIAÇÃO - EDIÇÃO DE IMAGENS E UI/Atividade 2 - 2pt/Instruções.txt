@@ -1,0 +1,12 @@
+::INSTRUÇÕES
+
+	-1 - No Photoshop, utilizando o recurso de máscara e os arquivos tv e tartaruga contidos nesta pasta, realize uma montagem de acordo com o exemplo (resultado-final).
+
+	-2 - Salve no formato PSD nesta mesma pasta e com o nome Atividade2.
+
+
+::QUESITOS OBRIGATÓRIOS
+
+Executar as duas instruções acima.
+
+

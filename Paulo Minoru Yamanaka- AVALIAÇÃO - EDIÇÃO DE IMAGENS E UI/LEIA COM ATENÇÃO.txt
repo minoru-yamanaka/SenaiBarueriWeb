@@ -1,0 +1,10 @@
+Ao concluir as atividades 1,2 e 3 desta pasta, renomeie a pasta conforme abaixo:
+
+	De: AVALIAÇÃO - EDIÇÃO DE IMAGENS E UI
+	Para: SEU NOME - AVALIAÇÃO - EDIÇÃO DE IMAGENS E UI
+
+Em seguida envie para FTP, na pasta Profº. Vagner.
+
+Sua nota final para este módulo, é a soma do resultado destas três atividades práticas mais o questionário online.
+
+OBS: NÃO HÁ MEIO CERTO.
