@@ -6,6 +6,7 @@ O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.
 ## 0.1.4 - 2024-03-15
 
 ### Adicionado
+- JAVASCRIPT
 - Logica_190324.md
 - Lógica de programação
 
