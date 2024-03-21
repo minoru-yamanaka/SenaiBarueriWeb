@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <style>
+
+    </style>
+    <title>06-ex.html</title>
+</head>
+<body>
+
+    <!-- JS -->
+    <script>
+
+       window.confirm("Insira os valores de suas compras! ")
+       let valor1 = Number(window.prompt("Insira a 1° compra : "))
+       let valor2 = Number(window.prompt("Insira o 2° compra : "))
+       let valor3 = Number(window.prompt("Insira o 3° compra : "))
+       let valor4 = Number(window.prompt("Insira o 4° compra : "))
+       let desconto = Number(window.prompt("Insira a porcentagem de desconto : "))
+
+       let somatoria = (valor1) + (valor2) + (valor3) + (valor4)
+       let descontoFinal = (somatoria*desconto)/100
+       let valor_a_pagar = somatoria - descontoFinal
+
+       window.alert("A soma das compras é: R$" + somatoria + "\n e seu desconto é: R$" +  descontoFinal + "\n O valor à pagar é: R$" + valor_a_pagar)  
+       window.alert("Nossos Produtos não tem garantia ! ")
+       
+    </script>
+</body>
+</html>
