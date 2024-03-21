@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <style>
+
+    </style>
+    <title>07-ex.html</title>
+</head>
+<body>
+
+    <!-- JS -->
+    <script>
+        // Solicitar os valores das notas
+        let name  = window.prompt("Insira o nome do aluno: ")
+        let note1 = Number(window.prompt("Insira a 1° nota: "))
+        let note2 = Number(window.prompt("Insira a 2° nota: "))
+        let note3 = Number(window.prompt("Insira a 3° nota: "))
+        let note4 = Number(window.prompt("Insira a 4° nota: "))
+    
+        // Calcular a média das notas
+        let End_note = (note1 + note2 + note3 + note4)/4
+
+        // Verificar se o aluno está aprovado ou reprovado
+        let situation = End_note >= 6 ? "Aprovado(a)" : "Reprovado(a)"
+
+        // Exibir os resultados
+        alert(`Aluno: ${name} \nA 1° nota é: ${note1} \nA 2° nota é: ${note2} \nA 3° nota é: ${note3} \nA 4° nota é: ${note4} \nA média final é: ${End_note} \n E ${name} está ${situation}.`);
+
+    </script>
+    
+</body>
+</html>

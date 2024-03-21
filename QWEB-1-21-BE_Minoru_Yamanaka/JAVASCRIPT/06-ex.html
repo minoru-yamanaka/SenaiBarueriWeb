@@ -13,21 +13,32 @@
 
     <!-- JS -->
     <script>
+        // Loop principal
+        let continuar = true; // Variável para controlar se o usuário deseja continuar ou não
 
-       window.confirm("Insira os valores de suas compras! ")
-       let valor1 = Number(window.prompt("Insira a 1° compra : "))
-       let valor2 = Number(window.prompt("Insira o 2° compra : "))
-       let valor3 = Number(window.prompt("Insira o 3° compra : "))
-       let valor4 = Number(window.prompt("Insira o 4° compra : "))
-       let desconto = Number(window.prompt("Insira a porcentagem de desconto : "))
+        while (continuar) {
+            // Solicitar os valores das compras e do desconto
+            window.confirm("Insira os valores de suas compras!");
+            let valor1 = Number(window.prompt("Insira a 1° compra: "));
+            let valor2 = Number(window.prompt("Insira o 2° compra: "));
+            let valor3 = Number(window.prompt("Insira o 3° compra: "));
+            let valor4 = Number(window.prompt("Insira o 4° compra: "));
+            let desconto = Number(window.prompt("Insira a porcentagem de desconto: "));
 
-       let somatoria = (valor1) + (valor2) + (valor3) + (valor4)
-       let descontoFinal = (somatoria*desconto)/100
-       let valor_a_pagar = somatoria - descontoFinal
+            // Calcular a soma das compras e o desconto
+            let somatoria = valor1 + valor2 + valor3 + valor4;
+            let descontoFinal = (somatoria * desconto) / 100;
+            let valor_a_pagar = somatoria - descontoFinal;
 
-       window.alert("A soma das compras é: R$" + somatoria + "\n e seu desconto é: R$" +  descontoFinal + "\n O valor à pagar é: R$" + valor_a_pagar)  
-       window.alert("Nossos Produtos não tem garantia ! ")
-       
+            // Exibir os resultados
+            window.alert("A soma das compras é: R$" + somatoria + "\nSeu desconto é: R$" +  descontoFinal + "\nO valor a pagar é: R$" + valor_a_pagar);
+
+            // Perguntar se o usuário deseja continuar
+            continuar = window.confirm("Deseja inserir mais valores de compras? Clique em OK para continuar ou Cancelar para sair.");
+        }
+        // Mensagem final
+        window.alert("Nossos produtos não têm garantia!");
+        
     </script>
 </body>
 </html>
