@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <style>
+
+    </style>
+    <title>Exercicio Operador tenário</title>
+</head>
+<body>
+
+    <!-- JS -->
+    <script>
+        /*
+
+        Operadores lógicos são utilizados para fazer comparações e 
+        tomar decisões baseadas nessas comparações em linguagens de programação. 
+        Os operadores lógicos mais comuns são o "AND" (E), o "OR" (OU) e o "NOT" (NÃO).
+
+        Em JavaScript, os operadores lógicos são representados por `&&` (AND), `||` (OR) e `!` (NOT).
+
+            1. AND (&&): Retorna verdadeiro se ambos os operandos forem verdadeiros.
+                
+                if (idade > 18 && possuiCarteiraDeMotorista) {
+                    // Executa se a idade for maior que 18 E o usuário possuir carteira de motorista
+                }
+                
+
+            2. OR (||): Retorna verdadeiro se pelo menos um dos operandos for verdadeiro.
+            
+                if (temContaBancaria || temCartaoDeCredito) {
+                    // Executa se o usuário tiver conta bancária OU cartão de crédito
+                }
+                
+
+            3. NOT (!): Inverte o valor de verdadeiro para falso e vice-versa.
+            
+                if (!estaChovendo) {
+                    // Executa se não estiver chovendo
+                }
+        
+        Esses operadores lógicos podem ser combinados e utilizados para criar expressões lógicas
+        mais complexas e para controlar o fluxo do programa com base em diferentes condições.
+
+        */
+        let nome_do_vendedor = String(prompt("Insira o nome do vendedor: "))
+        let fogao = Number(prompt("Insira o valor da 1ª venda do Fogão: "))
+        let geladeira = Number(prompt("Insira o valor da 2ª venda da Geladeira "))
+        let microondas = Number(prompt("Insira o valor da 3ª venda do Microondas "))
+
+        let parabens = `${nome_do_vendedor}, parabéns! Você receberá uma viagem!`
+        let tente = `${nome_do_vendedor}, infelizmente você não atingiu a meta!`
+
+        fogao>=18000 || geladeira>=26800 || microondas>=4600 ?alert(parabens):alert(tente)
+
+        
+     
+        
+
+        
+
+        
+    </script>
+    
+</body>
+</html>
