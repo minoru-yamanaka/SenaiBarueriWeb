@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector</title>
+</head>
+
+<body>
+    <div id="primeira-div">
+        <a href="#" class="link-verde">Link 1</a><br>
+        <a href="#" class="link-verde">Link 2</a><br>
+        <a href="#" class="link-verde">Link 3</a>
+    </div><br>
+
+    <div id="segunda-div">
+        <a href="#" class="link-rosa">Link 1</a><br>
+        <a href="#" class="link-rosa">Link 2</a><br>
+        <a href="#" class="link-rosa">Link 3</a>
+    </div>
+
+    <script>
+        let divAmarela = document.querySelector("#segunda-div")
+        divAmarela.style.background = "yellow"
+        divAmarela.style.padding = "15px"
+
+        let linkRosa = document.querySelector(".link-rosa")
+        linkRosa.style.color = "pink"
+
+        let linkVerde = document.querySelector(".link-verde")
+        linkVerde.style.color = "green"
+
+    </script>
+</body>
+
+</html>

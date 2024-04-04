@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura Objetos por Classe</title>
+</head>
+
+<body>
+    <ol>
+        <li>Ferrari</li>
+        <li>Volvo</li>
+        <li class="verde">Jaguar</li>
+        <li>Bugatti</li>
+        <li>Porsche</li>
+    </ol>
+
+    <script>
+        let carroDestaque = document.getElementsByClassName("verde")[0]
+        carroDestaque.style.color = "darkgreen"
+    </script>
+</body>
+
+</html>
