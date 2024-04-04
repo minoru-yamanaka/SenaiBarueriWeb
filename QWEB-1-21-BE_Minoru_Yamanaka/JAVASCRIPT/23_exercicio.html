@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23 execrício</title>
+    <style>
+
+    </style>
+</head>
+<body>
+        <!-- div: box com seu id -->
+
+        <div id="box1"
+        onclick="modo_escuro1()" onmouseout="modo_claro1()"
+        >modo_claro</div>
+
+        <br><br>
+
+        <div id="box2" class="botao"
+        onclick="modo_escuro2()" onmouseout="modo_claro2()"
+        >modo_escuro</div>
+
+    <script>
+    // capitura o elemento box que é uma div
+    let box1 = document.getElementById("box1")
+
+        function modo_claro1(){
+            box1.style.color = "black"
+            box1.style.background = "white"
+        }
+
+        function modo_escuro1(){
+            box1.style.color = "white"
+            box1.style.background = "black"
+        }
+
+    let box2 = document.getElementById("box2")
+
+        function modo_claro2(){
+            box2.style.color = "black"
+            box2.style.background = "white"
+        }
+
+        function modo_escuro2(){
+            box2.style.color = "white"
+            box2.style.background = "black"
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções e Eventos</title>
+    <style>
+        #div{
+        cursor:pointer;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- div com id -->
+    <div id="div" onclick="altera_cor()" onmouseout="altera_texto()" onmouseover="voltar_texto()">SENAI BARUERI</div>
+
+    
+
+    <script>
+
+    // captura elemento div de id "teste"
+    let div = document.getElementById("div") 
+
+        function altera_cor(){
+            // Altera cor de fundo do elemento "div"
+            div.style.background = "yellow"
+            div.style.color = "red"
+        }
+
+        function altera_texto(){
+             // Altera o texto do elemento "div"
+             div.innerText="TEXTO 1"
+             div.style.background = "white"
+             div.style.color = "black"
+             
+        }
+
+        function voltar_texto(){
+             // Altera o texto do elemento "div"
+             div.innerText="TEXTO 2"
+             div.style.background = "black"
+             div.style.color = "white"
+        }
+
+
+        
+
+    </script>
+</body>
+</html>

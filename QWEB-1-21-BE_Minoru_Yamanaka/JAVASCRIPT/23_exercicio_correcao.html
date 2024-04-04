@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização responsiva da página -->
+    <title>23 execrício coreção</title> <!-- Define o título da página -->
+    <style>
+        /* Estilos CSS para os botões */
+        #btClaro, #btEscuro {
+            border: solid 1px black;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+            text-align: center; /* Centraliza o texto horizontalmente */
+            margin-top: 10px;
+            cursor: pointer;
+            background-color: #333333; /* Cor de fundo inicial dos botões */
+            color: #fff; /* Cor do texto inicial dos botões */
+        }
+    </style>
+</head>
+<body>
+    <!-- Botões para alternar entre Modo Claro e Modo Escuro -->
+    <div id="btClaro" onclick="clarear()">Modo Claro</div>
+    <div id="btEscuro" onclick="escurecer()">Modo Escuro</div>
+
+    <script>
+        // Captura os elementos relevantes do HTML
+        let corpo = document.getElementsByTagName("body")[0]; // Captura o corpo da página
+        let botaoClaro = document.getElementById("btClaro"); // Captura o botão Modo Claro
+        let botaoEscuro = document.getElementById("btEscuro"); // Captura o botão Modo Escuro
+        
+        // Função para mudar para o Modo Escuro
+        function escurecer() {
+            corpo.style.background = "#333333"; // Define o fundo da página como escuro
+
+            // Altera as cores dos botões para se adequarem ao Modo Escuro
+            botaoClaro.style.background = "#fff";
+            botaoEscuro.style.background = "#fff";
+            botaoClaro.style.color = "#000";
+            botaoEscuro.style.color = "#000";
+        }
+
+        // Função para mudar para o Modo Claro
+        function clarear() {
+            corpo.style.background = "#fff"; // Define o fundo da página como claro
+
+            // Altera as cores dos botões para se adequarem ao Modo Claro
+            botaoClaro.style.background = "#333";
+            botaoEscuro.style.background = "#333";
+            botaoClaro.style.color = "#fff";
+            botaoEscuro.style.color = "#fff";
+        }
+    </script>
+</body>
+</html>
