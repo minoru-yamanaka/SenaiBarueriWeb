@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 execício</title>
+
+    <style>
+
+    </style>
+</head>
+<body >
+    
+<p id="situacaoCompra"> </p>
+<p id="situacaoCupom"> </p>
+<p id="resposta"> </p>
+
+<script>
+
+let valorCompra = Number(window.prompt("Por favor insira o valor da compra: "));
+let cupom = window.prompt("Possui cupom (sim/não): ");
+let desconto = valorCompra -100
+situacaoCompra.innerText = `O valor da compra é ${valorCompra}`;
+situacaoCupom.innerText = `Possui cupom: ${cupom}`;
+
+if (valorCompra > 1000 && cupom=="sim") {
+    resposta.innerText = `O valor a pagar é ${desconto}`;
+} else {
+    resposta.innerText = `O valor a compra é ${valorCompra}`;
+}
+
+
+
+</script>
+
+<!-- teste -->
+    
+</body>
+</html>

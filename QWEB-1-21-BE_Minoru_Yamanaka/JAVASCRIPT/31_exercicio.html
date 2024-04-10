@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 execício</title>
+
+    <style>
+
+    </style>
+</head>
+<body >
+    
+<div id="resposta"> </div>
+
+
+<script>
+
+let valor_compra = Number(window.prompt("Por favor insira o valor da compra: "));
+
+let cupom_pergunta = window.prompt("Possui cupom (sim/não): ");
+let cupom = cupom_pergunta.toLowerCase() === "sim";
+
+if (valor_compra > 1000 && cupom) {
+    let valor_cupom = 100;
+    let valor_a_pagar = valor_compra - valor_cupom;
+    resposta.innerText = `O valor a pagar é ${valor_a_pagar}`;
+    resposta.style.color = "green";
+} else {
+    resposta.innerText = "Cupom não pode ser aplicado";
+    resposta.style.color = "red";
+}
+
+
+
+</script>
+
+<!-- teste -->
+    
+</body>
+</html>

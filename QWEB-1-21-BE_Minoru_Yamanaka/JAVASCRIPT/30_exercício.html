@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 execício</title>
+
+    <style>
+        .fundo {
+            background-color: #fff;
+        }
+        .trocaVermelho {
+            background-color: red;
+        }
+
+        .trocaVerde {
+            background-color: green;
+        }
+
+        div {
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #888;
+            text-align: center;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body id="corpo">
+    
+    <label for="idade">Insira sua idade:</label>
+    <input type="number" name="idade" id="idade">
+
+<script>
+
+let idade = document.getElementById("idade").value;
+let corpo = document.getElementById("corpo");
+
+document.getElementById("idade").addEventListener("input", function() {
+    idade = parseInt(document.getElementById("idade").value);
+    if (idade < 18) {
+        alert(`Sua idade é ${idade}, você pode entrar`);
+        corpo.setAttribute("class", "trocaVerde");
+    } else {
+        alert(`Sua idade é ${idade}, você não pode entrar`);
+        corpo.setAttribute("class", "trocaVermelho");
+    }
+});
+
+</script>
+    
+</body>
+</html>
