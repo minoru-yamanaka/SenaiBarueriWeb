@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .fundo {
+            background-color: #fff;
+        }
+        .trocaAmarelo {
+            background-color: rgb(224, 205, 0);
+        }
+
+        .trocaAzul{
+            background-color: rgb(0, 89, 255);
+        }
+
+        .trocaVerde {
+            background-color: rgb(0, 224, 0);
+        }
+
+
+
+
+        div {
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #888;
+            text-align: center;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+
+    <title>Escolher Tema</title>
+</head>
+
+<body class="fundo" id="corpo">
+
+    <div onclick="trocaAmarelo()">Amarelo</div>
+    <div onclick="trocaAzul()">Azul</div>
+    <div onclick="trocaVerde()">Verde</div>
+
+</body>
+
+<script>
+
+
+    function trocaAmarelo(){
+        corpo.setAttribute("class", "trocaAmarelo")
+    }
+    function trocaAzul(){
+        corpo.setAttribute("class", "trocaAzul")
+    }
+    function trocaVerde(){
+        corpo.setAttribute("class", "trocaVerde")
+    }
+    
+
+</script>
+
+</html>

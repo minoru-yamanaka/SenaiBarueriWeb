@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercico</title>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="nomeAluno">Digite seu nome</label>
+        <input type="text" id="nomeAluno">
+        <br>
+
+        <label for="nota1">Nota 1</label>
+        <input type="number" id="nota1">
+        <br>
+
+        <label for="nota2">Nota 2</label>
+        <input type="number" id="nota2">
+        <br>
+
+        <label for="nota3">Nota 3</label>
+        <input type="number" id="nota3">
+        <br>
+
+
+        <label for="nota4">Nota 4</label>
+        <input type="number" id="nota4">
+        <br>
+
+        <input type="button" value="Calcular Média" onclick="calcularMedia()">
+        <br>
+
+        <input type="reset" value="Limpar">
+
+    </form>
+
+    <script>
+
+        function calcularMedia() {
+            let aluno = document.getElementById("nomeAluno").value
+            let campo1 = Number(document.getElementById("nota1").value)
+            let campo2 = Number(document.getElementById("nota2").value)
+            let campo3 = Number(document.getElementById("nota3").value)
+            let campo4 = Number(document.getElementById("nota4").value)
+            let media = (campo1 + campo2 + campo3 + campo4) / 4
+
+            alert(`${aluno} Sua média é ${media}`)
+
+        }
+
+    </script>
+
+</html>

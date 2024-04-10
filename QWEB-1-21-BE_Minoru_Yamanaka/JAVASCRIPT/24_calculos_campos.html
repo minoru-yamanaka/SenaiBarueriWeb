@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculos entre campos de formulário</title>
+</head>
+
+<body>
+    <form action="valor1">Valor 1</form>
+    <input type="number" id='valor1'>
+
+    <br><br>
+
+    <form action="valor2">Valor 2</form>
+    <input type="number" id='valor2'>
+
+    <br><br>
+
+    <input type="button" value="Calcular Agora" onclick="somar()">
+
+    <script>
+        
+
+       function somar (){
+        let campo1 = Number(document.getElementById("valor1").value)
+        let campo2 = Number(document.getElementById("valor2").value)
+        let soma = campo1 + campo2
+        alert (`O resultado da soma é ${soma}`)
+       }
+
+    </script>
+
+</body>
+
+</html>
