@@ -7,67 +7,49 @@
     <style>
         body{
             display: flex;
-            justify-content: center;
-            align-items: center;
             justify-content: space-around;
         }
 
-
-        .pai{
-            display: flex;
-            background-color: cornflowerblue;
-            justify-content: right;
-            align-items: start;
+        .pai1, .pai2{
+            background-color: blue;
             width: 400px;
             height: 400px;
-            padding: 25px;
+            margin: 5px;
         }
 
-        .itens_do_pai{
-            background-color: royalblue;
+        .filhos1,  .filhos2{
+            background-color: yellow;
             border: solid 1px blue;
-            width: 100px;
-            height: 100px;
-            text-align: center;
-            vertical-align: middle;
-            line-height: 100px;
+            width: 60px;
+            height: 60px;
+            margin: 3px;
         }
 
-        .mae{
+        .pai1{
             display: flex;
-            background-color: cornflowerblue;
+            justify-content: end;
+        }
+
+        .pai2{
+            display: flex;
             justify-content: center;
             align-items: center;
-            width: 400px;
-            height: 400px;
-            padding: 25px;
-        }
-
-        .itens_da_mae{
-            background-color: royalblue;
-            border: solid 1px blue;
-            width: 100px;
-            height: 100px;
-            text-align: center;
-            vertical-align: middle;
-            line-height: 100px;
-            
         }
 
     </style>
 </head>
 <body>
     
-    <div class="pai">
-        <itens class="itens_do_pai">01</itens>
-        <itens class="itens_do_pai">02</itens>
-        <itens class="itens_do_pai">03</itens>
+    <div class="pai1">
+        <itens class="filhos1">01</itens>
+        <itens class="filhos1">02</itens>
+        <itens class="filhos1">03</itens>
     </div>
 
-    <div class="mae">
-        <itens class="itens_da_mae">01</itens>
-        <itens class="itens_da_mae">02</itens>
-        <itens class="itens_da_mae">03</itens>
+    <div class="pai2">
+        <itens class="filhos2">01</itens>
+        <itens class="filhos2">02</itens>
+        <itens class="filhos2">03</itens>
     </div>
 
 
