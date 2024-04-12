@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora deo IMC</title>
 </head>
+
 <body>
     <form action="">
         <label for="Nome">Nome:</label>
@@ -15,35 +17,45 @@
 
         <label for="Altura">Altura:</label>
         <input type="number" name="local" id="idAltura"></input><br><br>
-    
+
         <input type="button" value="calcular" onclick="FuncaoCalcular()"></input>
-        <input type="reset" value="Limpar" >
+        <input type="reset" value="Limpar">
     </form>
 
 
     <p id="resposta"></p>
 
 
-<script>
-    // peso/(altura*altura)
-    function FuncaoCalcular(){
-    let var_nome = String(idNome.value)
-    let var_peso = Number(idPeso.value)
-    let var_altura = Number(idAltura.value)
-    let var_imc = var_peso/(var_altura*var_altura)
+    <script>
+        // peso/(altura*altura)
+        function FuncaoCalcular() {
+            let var_nome = String(idNome.value)
+            let var_peso = Number(idPeso.value)
+            let var_altura = Number(idAltura.value)
+            let var_imc = var_peso / (var_altura ** 2)
 
-    if(var_imc<18.5){
-        resposta.innerText = `${var_nome}, você está Baixo peso `
-    }else if(var_imc>18.5 && var_imc<24.99){
-        resposta.innerText = `${var_nome}, você está Normal `
-    }else if(var_imc>25 && var_imc<29.99){
-        resposta.innerText = `${var_nome}, você está em SobrePeso `
-    }else {
-        resposta.innerText = `${var_nome}, você está em Obesidade `
-    }
 
-}
-</script>
-    
+
+            if (var_peso == 0 || var_peso == "" || var_altura == 0 || var_altura == "") {
+                resposta.innerText = `${var_nome}, dados inválidos `
+            } else {
+
+                if (var_imc < 18.5) {
+                    resposta.innerText = `${var_nome}, você está Baixo peso `
+                } else if (var_imc >= 18.5 && var_imc <= 24.99) {
+                    resposta.innerText = `${var_nome}, você está Normal `
+                } else if (var_imc >= 25 && var_imc <= 29.99) {
+                    resposta.innerText = `${var_nome}, você está em SobrePeso `
+                } else {
+                    resposta.innerText = `${var_nome}, você está em Obesidade `
+                }
+                
+            }
+        }
+
+
+    </script>
+
 </body>
+
 </html>

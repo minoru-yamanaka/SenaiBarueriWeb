@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 atividade Flexbox</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+
+        .pai{
+            display: flex;
+            background-color: cornflowerblue;
+            justify-content: right;
+            align-items: start;
+            width: 400px;
+            height: 400px;
+            padding: 25px;
+        }
+
+        .itens_do_pai{
+            background-color: royalblue;
+            border: solid 1px blue;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 100px;
+        }
+
+        .mae{
+            display: flex;
+            background-color: cornflowerblue;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 400px;
+            padding: 25px;
+        }
+
+        .itens_da_mae{
+            background-color: royalblue;
+            border: solid 1px blue;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 100px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="pai">
+        <itens class="itens_do_pai">01</itens>
+        <itens class="itens_do_pai">02</itens>
+        <itens class="itens_do_pai">03</itens>
+    </div>
+
+    <div class="mae">
+        <itens class="itens_da_mae">01</itens>
+        <itens class="itens_da_mae">02</itens>
+        <itens class="itens_da_mae">03</itens>
+    </div>
+
+
+</body>
+</html>

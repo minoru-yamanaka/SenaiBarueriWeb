@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style> 
+
+    .pai{
+        display: flex;
+        background-color: aquamarine;
+        /*altera a posição dos itens filhos */
+        /*flex-direction: column;*/
+        /*quebra e ajusta os filhos na telapara a linha de baixo */
+        /*flex-wrap: wrap;*/
+        height: 600px;
+        justify-content:left  ;
+        align-items: stretch;
+    }
+    
+    .itens{
+        background-color: yellow;
+        width: 100px;/*altura*/
+        
+        border: solid 1px blue;
+    }
+
+    </style>
+</head>
+<body>
+
+<div class="pai">
+
+    <div class="itens">01 </div>
+    <div class="itens">02 </div>
+    <div class="itens">03 </div>
+
+  
+    
+    
+</div>    
+</body>
+</html>
