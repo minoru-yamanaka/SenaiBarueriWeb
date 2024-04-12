@@ -1,0 +1,15 @@
+Esta avaliação é composta de atividades práticas valendo 5 pontos e teóricas, valendo 10 pontos, totalizando 15 pontos.
+
+	- As atividades práticas estão na pasta Atividades Práticas
+	- As atividades teóricas são constituídas por um questionário online (disponível no link Avaliação Javascript)
+
+
+Orientações:
+
+Ao concluir as atividades, altere o nome da pasta para:
+
+	SeuNome-Avaliação Javascript
+
+Feche todos os arquivos
+Envie para a pasta do Prof. Vagner no FTP
+

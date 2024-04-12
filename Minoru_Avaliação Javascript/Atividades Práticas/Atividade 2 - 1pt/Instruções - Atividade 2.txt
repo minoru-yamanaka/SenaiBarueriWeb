@@ -1,0 +1,6 @@
+1 - No VScode, abra o arquivo Atividade2
+
+2 - Na página há um código que calcula a área de um retângulo, porém ao testar a página no navegador você notará que a mesma não funciona.
+
+3 - Identifique o erro e realize a correção para que a página que a página seja capaz de calcular e exibir o resultado da área do retângulo na tela.
+

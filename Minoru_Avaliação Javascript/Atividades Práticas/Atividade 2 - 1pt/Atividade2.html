@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input{
+            width: 150px;
+            margin-bottom: 10px;
+        }
+    </style>
+    
+    
+    <title>ÁREA DO RETÂNGULO</title>
+</head>
+<body>
+    <form action="#">
+        <label for="base">DIGITE A BASE</label>
+        <input type="number" name="base" id="base_retangulo">
+        <label for="altura">DIGITE A ALTURA</label>
+        <input type="number" name="altura" id="altura_retangulo">
+        <input type="button" value="CALCULAR ÁREA"  onclick="calcularArea()">
+
+        <p id="resposta"></p>
+
+    </form>
+
+<script>
+
+function calcularArea(){
+let valorBase = Number(document.getElementById("base_retangulo").value)
+let valorAltura = Number(document.getElementsByName("altura")[0].value)
+let area = valorBase * valorAltura
+let respostaArea = document.getElementById("resposta")
+respostaArea.innerText=`A area do retângulo é ${area}`
+}
+
+
+</script>
+
+</body>
+</html>

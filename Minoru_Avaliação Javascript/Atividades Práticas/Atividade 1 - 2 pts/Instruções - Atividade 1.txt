@@ -1,0 +1,7 @@
+1 - No VScode, abra o arquivo Atividade1
+
+2 - Entre as tags <script> </script> há um código em Javascript contendo duas variáveis: A e B.
+
+3 - Dê continuidade ao código depois das variáveis, utilizando o operador ternário para avaliar se o valor A é maior que o valor B. Se o teste for verdadeiro escreva por meio de um alerta: "O valor A é maior", caso contrário: "O valor B é maior"
+
+

@@ -1,0 +1,10 @@
+1 - Abra o arquivo Atividade3 no navegador e note que existem dois cards na tela.
+
+2 - Cada card possui uma tarefa a ser realizada utilizando um arquivo em javascript.
+
+3 - Crie o arquivo chamado script.js e salve-o dentro da pasta js da pasta Atividade 3 - 2pts.
+
+4 - No arquivo script.js desenvolva as duas atividades, conforme solicitadas nos cards.
+
+5 - Crie o link entre a página html e o js para que os botões dos cards funcionem.
+
